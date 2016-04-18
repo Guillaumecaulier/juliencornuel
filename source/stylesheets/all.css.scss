@@ -13,10 +13,12 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 
 
-
-
-
-
 .row iframe {
   display: none;
+}
+
+.bg-sound {
+  background-image: url(https://images.unsplash.com/photo-1457689146074-bd667e343a9c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=c60129b7bd3bf373cbcb1e37a1834f4e);
+  background-size: cover !important;
+  background-position: bottom;
 }
