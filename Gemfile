@@ -14,3 +14,4 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 gem 'rails_12factor', group: :production
 gem 'puma',           group: :production
+gem 'rack-contrib'
