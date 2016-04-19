@@ -18,7 +18,10 @@
 }
 
 .bg-sound {
-  background-image: url(https://images.unsplash.com/photo-1457689146074-bd667e343a9c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=c60129b7bd3bf373cbcb1e37a1834f4e);
+  background-image: url(https://images.unsplash.com/13/unsplash_523b1f5aafc42_1.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=80d0c27af23c131d36b947ef70fed902);
   background-size: cover !important;
   background-position: bottom;
+  h2, h4 {
+    color: white !important;
+  }
 }
