@@ -1,10 +1,71 @@
 ---
 title: Contact // Julien Cornuel
 ---
-   <div class="container text-center">
-        <p>Get in touch</p>
-          <ul class="social">
-              <li><a target="_blank" href="https://www.linkedin.com/in/julien-cornuel-492a85a0?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-              <li><a target="_blank" href="https://vimeo.com/"><i class="fa fa-vimeo-square fa-2x"></i></a></li>
-          </ul>
+
+<section class="">
+    <div class="container">
+        <div class="spacer-75"></div>
+        <div class="row">
+            <div class="col-md-5 contact">
+                <div class="contact-box-left mb-45">
+                    <div class="contact-icon-left"><i class="ion ion-ios-location"></i></div>
+
+                    <p>
+                        LILLE / PARIS
+                    </p>
+                    <a href="mailto:yourname@domain.com"><i class="fa fa-envelope-o left"></i>juliencornuel@gmail.com</a><br />
+                    <a><i class="fa fa-phone left"></i>+33 (0) 6 61 38 91 12</a>
+                </div>
+
+                <div class="contact-box-left mb-45">
+
+                    <h6>Find Me</h6>
+                    <ul class="list-none social">
+                        <li>-</li>
+                        <li><a href="https://vimeo.com/" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/julien-cornuel-492a85a0?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li>-</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-1">
+                <!-- Contact FORM -->
+                <form class="contact-form" id="contact" role="form">
+
+                    <!-- IF MAIL SENT SUCCESSFULLY -->
+                    <h6 class="successContent">
+                        <i class="fa fa-check left" style="color: #5cb45d;"></i>Your message has been sent successfully.
+                    </h6>
+                    <!-- END IF MAIL SENT SUCCESSFULLY -->
+
+                    <!-- MAIL SENDING UNSUCCESSFULL -->
+                    <h6 class="errorContent">
+                        <i class="fa fa-exclamation-circle left" style="color: #e1534f;"></i>There was a problem validating the form please check!
+                    </h6>
+                    <!-- END MAIL SENDING UNSUCCESSFULL -->
+
+                    <div class="form-field-wrapper">
+                        <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="form-field-wrapper">
+                        <input class="input-sm form-full" id="form-email" type="email" name="form-email" placeholder="Email" required>
+                    </div>
+
+                    <div class="form-field-wrapper">
+                        <input class="input-sm form-full" id="form-subject" type="text" name="form-subject" placeholder="Subject">
+                    </div>
+
+                    <div class="form-field-wrapper">
+                        <textarea class="form-full" id="form-message" rows="7" name="form-message" placeholder="Your Message" required></textarea>
+                    </div>
+
+                    <button class="btn btn-md btn-black form-full" type="submit" id="form-submit" name="submit">Send Message</button>
+                </form>
+                <!-- END Contact FORM -->
+            </div>
+        </div>
     </div>
+    <div class="ptb-60"></div>
+</section>
+
